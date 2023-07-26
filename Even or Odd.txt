@@ -1,0 +1,48 @@
+Write a program to check given number is Even or Odd
+
+Problem
+Bessie's cruel second grade teacher has assigned a list of N(1≤N≤100) positive integers I(1≤I≤10^60)  for which Bessie must determine their parity (explained in second grade as "Even... or odd?"). Bessie is overwhelmed by the size of the list and by the size of the numbers. After all, she only learned to count recently.
+
+Write a program to read in the N integers and print even on a single line for even numbers and likewise odd for odd numbers.
+
+Input Format
+Line 1: A single integer : N
+Lines 2..N+1: Line j+1 contains Ij, the j th integer to determine even/odd
+
+Sample 1:
+Input				
+2
+1024
+5931
+Output
+even
+odd
+
+Solution in C ++ :-
+
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main() {
+    int N;
+    cin >> N;
+
+    for (int i = 0; i < N; i++) {
+        string num;
+        cin >> num;
+
+        // To determine even or odd, we only need to check the last digit of the number.
+        // If the last digit is even (0, 2, 4, 6, or 8), the whole number is even.
+        // Otherwise, it's odd.
+        if ((num.back() - '0') % 2 == 0) {
+            cout << "even" << endl;
+        } else {
+            cout << "odd" << endl;
+        }
+    }
+
+    return 0;
+}
+
