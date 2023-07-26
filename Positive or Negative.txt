@@ -2,11 +2,11 @@ Write a program to check whether the number is Positive or Negative
 
 Problem
 S No	Test Case	Status
-1			0
-2		       -3
-3			5
-4		       2
-5                 -10
+1		0
+2	   -3
+3	    5
+4	    2
+5      -10
 
 Solution in C :-
 
