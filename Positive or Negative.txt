@@ -1,0 +1,33 @@
+Write a program to check whether the number is Positive or Negative
+
+Problem
+S No	Test Case	Status
+1			0
+2		       -3
+3			5
+4		       2
+5                 -10
+
+Solution in C :-
+
+#include <stdio.h>
+
+int main()
+{
+    int num;
+    scanf("%d", &num);
+
+    if(num == 0)
+    {
+        printf("Neither Positive nor Negative");
+    }
+    else if(num>0)
+    {
+        printf("Positive");
+    }
+    else
+    {
+        printf(" Negative");
+    }
+    return 0;
+}
