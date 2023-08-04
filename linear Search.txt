@@ -6,9 +6,9 @@ Input: arr[] = {38, 54, 42, 11, 89}
 Key : 42
 Output: 2
 
-Input: arr[] = {22, 14, 8, 17, 35, 3}
+Input: arr[] = {14, 8, 17, 35, 3}
 Key : 22
-Output:  0
+Output:  -1
 
 Solution in C++ : 
 
