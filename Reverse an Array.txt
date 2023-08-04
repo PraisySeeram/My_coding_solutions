@@ -62,3 +62,6 @@ int main()
         printf("%d ", a[i]);  
     }  
 } 
+
+Time Complexity : O(n)
+Space Complexity : O(1)
