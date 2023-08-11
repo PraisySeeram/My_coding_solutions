@@ -9,7 +9,7 @@ There is a single positive integer T on the first line of input. It stands for t
 Output
 For every input number N, output a single line containing the absolute value of N.
 
-Example
+Example:
 Input:
 4
 -9
